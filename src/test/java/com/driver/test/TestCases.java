@@ -18,6 +18,6 @@ public class TestCases {
     @Test
     public void testMethodINB() {
         B b = new B();
-        Assertions.assertEquals("Method is overridden in Extendend class B", b.meth());
+        Assertions.assertEquals("Method is overridden in Extended class B", b.meth());
     }
 }
